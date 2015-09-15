@@ -1,0 +1,29 @@
+﻿生成启动时间为 2015/9/15 19:27:56。
+     1>项目“c:\Users\infertom-pc\documents\visual studio 2010\Projects\5structure_exercise1\5structure_exercise1\5structure_exercise1.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“c:\users\infertom-pc\documents\visual studio 2010\Projects\5structure_exercise1\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\5structure_exercise1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt testdate.cpp
+         testdate.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\5structure_exercise1.exe.embed.manifest.res" Debug\5structure_exercise1_manifest.rc 
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\infertom-pc\documents\visual studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\5structure_exercise1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\infertom-pc\documents\visual studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\infertom-pc\documents\visual studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.lib" /MACHINE:X86 Debug\5structure_exercise1.exe.embed.manifest.res
+         Debug\testdate.obj
+     1>testdate.obj : error LNK2019: 无法解析的外部符号 "public: virtual int __thiscall Date::getSecond(void)const " (?getSecond@Date@@UBEHXZ)，该符号在函数 "bool __cdecl testInsertion(void)" (?testInsertion@@YA_NXZ) 中被引用
+     1>testdate.obj : error LNK2019: 无法解析的外部符号 "public: virtual int __thiscall Date::getMinute(void)const " (?getMinute@Date@@UBEHXZ)，该符号在函数 "bool __cdecl testInsertion(void)" (?testInsertion@@YA_NXZ) 中被引用
+     1>testdate.obj : error LNK2019: 无法解析的外部符号 "public: virtual int __thiscall Date::getHour(void)const " (?getHour@Date@@UBEHXZ)，该符号在函数 "bool __cdecl testInsertion(void)" (?testInsertion@@YA_NXZ) 中被引用
+     1>testdate.obj : error LNK2019: 无法解析的外部符号 "public: virtual int __thiscall Date::getYear(void)const " (?getYear@Date@@UBEHXZ)，该符号在函数 "bool __cdecl testInsertion(void)" (?testInsertion@@YA_NXZ) 中被引用
+     1>testdate.obj : error LNK2019: 无法解析的外部符号 "public: virtual int __thiscall Date::getDay(void)const " (?getDay@Date@@UBEHXZ)，该符号在函数 "bool __cdecl testInsertion(void)" (?testInsertion@@YA_NXZ) 中被引用
+     1>testdate.obj : error LNK2019: 无法解析的外部符号 "public: virtual int __thiscall Date::getMonth(void)const " (?getMonth@Date@@UBEHXZ)，该符号在函数 "bool __cdecl testInsertion(void)" (?testInsertion@@YA_NXZ) 中被引用
+     1>testdate.obj : error LNK2019: 无法解析的外部符号 "class std::basic_istream<char,struct std::char_traits<char> > & __cdecl operator>>(class std::basic_istream<char,struct std::char_traits<char> > &,class Date &)" (??5@YAAAV?$basic_istream@DU?$char_traits@D@std@@@std@@AAV01@AAVDate@@@Z)，该符号在函数 "bool __cdecl testInsertion(void)" (?testInsertion@@YA_NXZ) 中被引用
+     1>testdate.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Date::Date(void)" (??0Date@@QAE@XZ)，该符号在函数 "bool __cdecl testInsertion(void)" (?testInsertion@@YA_NXZ) 中被引用
+     1>testdate.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Date::Date(int,int,int,int,int,int)" (??0Date@@QAE@HHHHHH@Z)，该符号在函数 "bool __cdecl testConstructors(void)" (?testConstructors@@YA_NXZ) 中被引用
+     1>c:\users\infertom-pc\documents\visual studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.exe : fatal error LNK1120: 9 个无法解析的外部命令
+     1>已完成生成项目“c:\Users\infertom-pc\documents\visual studio 2010\Projects\5structure_exercise1\5structure_exercise1\5structure_exercise1.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.10
