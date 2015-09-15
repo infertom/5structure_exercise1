@@ -74,6 +74,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="client.cpp" />
     <ClCompile Include="date.cpp" />
     <ClCompile Include="testdate.cpp" />
   </ItemGroup>
