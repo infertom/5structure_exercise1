@@ -1,14 +1,18 @@
-﻿生成启动时间为 2015/9/15 20:27:52。
-     1>项目“C:\Users\Infertom-PC\documents\visual studio 2010\Projects\5structure_exercise1\5structure_exercise1\5structure_exercise1.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2015/9/17 19:12:25。
+     1>项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise1\5structure_exercise1\5structure_exercise1.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
-         正在对“Debug\5structure_exercise1.unsuccessfulbuild”执行 Touch 任务。
+         正在创建“Debug\5structure_exercise1.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
-         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt advertisement.cpp
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt advertisement.cpp client.cpp date.cpp testdate.cpp
+         testdate.cpp
+         date.cpp
+         client.cpp
          advertisement.cpp
+         正在生成代码...
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
-         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Infertom-PC\documents\visual studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\5structure_exercise1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Infertom-PC\documents\visual studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Infertom-PC\documents\visual studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.lib" /MACHINE:X86 Debug\5structure_exercise1.exe.embed.manifest.res
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\5structure_exercise1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.lib" /MACHINE:X86 Debug\5structure_exercise1.exe.embed.manifest.res
          Debug\advertisement.obj
          Debug\client.obj
          Debug\date.obj
@@ -18,12 +22,12 @@
          所有输出均为最新。
        LinkEmbedManifest:
          所有输出均为最新。
-         5structure_exercise1.vcxproj -> C:\Users\Infertom-PC\documents\visual studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.exe
+         5structure_exercise1.vcxproj -> C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise1\Debug\5structure_exercise1.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\5structure_exercise1.unsuccessfulbuild”。
          正在对“Debug\5structure_exercise1.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“C:\Users\Infertom-PC\documents\visual studio 2010\Projects\5structure_exercise1\5structure_exercise1\5structure_exercise1.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“C:\Users\Infertom-PC\Documents\Visual Studio 2010\Projects\5structure_exercise1\5structure_exercise1\5structure_exercise1.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:01.46
+已用时间 00:00:04.56
