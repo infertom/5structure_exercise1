@@ -1,5 +1,6 @@
 #include "Client.h"
 
+
 istream &operator>>(istream &stream, Client &c)
 {
     string temp;

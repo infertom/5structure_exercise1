@@ -1,5 +1,6 @@
 #include "Advertisement.h"
 
+
 istream &operator>>(istream &stream, Advertisement &a)
 {
 	string str;
@@ -120,6 +121,5 @@ int Advertisement::getQuantity() const
 
 bool Advertisement::operator==(const Advertisement &a) const
 {
-	if ( a.getNumber() == this->number ) return true;
-	else return false;
+	return (a.getNumber() == number);
 }

@@ -1,5 +1,6 @@
 #include "Date.h"
 
+
 ostream &operator<<(ostream& io, const Date& d)
 {
     io<<d.getMonth()<<"/"<<d.getDay()<<"/"<<d.getYear()<<" "<<d.getHour()<<":"<<d.getMinute()<<":"<<d.getSecond()<<endl;
@@ -130,6 +131,5 @@ bool Date::operator<(const Date &rhs)
     y = y * 100 + minute;
     y = y * 100 + second;
 
-	if ( y < x ) return true;
-	else return false;
+	return (y < x);
 }
